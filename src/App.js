@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+
 import './App.css';
+import Comp1 from './components/Comp1'
+import Button from './components/Button'
+
+
+
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Comp1
+        name="Rakibul Islam Naim"
+        b_date="23-08-2002"
+        b_place="Mohishkhula , Narail"
+        Age="20"
+        university="BSC in Software Engineering ,
+        Daffodil international university"
+
+      />
+
+
+      <Comp1
+        name="naim"
+        b_date="23-08-2002"
+        b_place="Mohishkhula , Narail"
+        Age="20"
+        university="BSC in Software Engineering ,
+        Daffodil international university"
+
+
+      />
+      
+
+      <Button />
+
+
+
     </div>
   );
 }

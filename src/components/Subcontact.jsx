@@ -4,7 +4,7 @@ function Subcontact(props) {
   return (
       <div>
           <ul className="favourite_games">
-                {props.contact.map((item) =>{
+                {props.personal_info.map((item) =>{
                     return(
                         <li>{item}</li>
                     )

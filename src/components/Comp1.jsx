@@ -1,9 +1,6 @@
 import React from 'react';
-import Subcomp1 from './Subcomp1';
-import Subcomp2 from './Subcomp2';
 import Subcontact from './Subcontact';
-import Result1 from './Result1';
-import Result2 from './Result2';
+
 
 
 function Comp1(props) {
@@ -23,8 +20,8 @@ function Comp1(props) {
             <h5>Educational qualifications :</h5>
             <ul className="edu-qualifications">
                 <ul>SSC 
-                   <Result1
-                      resultssc={[
+                   <Subcontact
+                      personal_info={[
                       "ssc_result : GPA-5",
                       "ssc_ins : Daud public school,jashore",
                        "ssc year: 2017",
@@ -32,8 +29,8 @@ function Comp1(props) {
                    />
                 </ul>
                 <ul>HSC
-                    <Result2
-                    resulthsc={[
+                    <Subcontact
+                    personal_info={[
                         "hsc_result : GPA-4.25",
                         "hsc_ins : Govt. BL Collage, khulna",
                         "hsc-year :2019",
@@ -53,7 +50,7 @@ function Comp1(props) {
             
             <h5>Contacts</h5>
             <Subcontact 
-               contact={["Email:rakibul35-549@diu.edu.bd",
+               personal_info={["Email:rakibul35-549@diu.edu.bd",
                "facebook:Rakibul isalm/facebook.com",
                "github:naim549/github.com",
             ]}
@@ -61,14 +58,14 @@ function Comp1(props) {
                     
             <h5>Favourite games</h5>
             <div>
-               <Subcomp1 
-               games={["footabl","cricket","batminton","hokky"]}
+               <Subcontact 
+               personal_info={["footabl","cricket","batminton","hokky"]}
                />
             </div>
             <h5>Skills</h5>
             <div>
-                <Subcomp2
-                 skills={["c progarming","java","javascrips","python"]}
+                <Subcontact
+                 personal_info={["c progarming","java","javascrips","python"]}
                 />
             </div>
             <hr />

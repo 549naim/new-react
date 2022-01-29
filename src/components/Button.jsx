@@ -31,7 +31,7 @@ const [count,setCount]=useState(0)
 
               <button onClick={()=>minus(10)}> minus 10</button>
               <button onClick={()=>minus(20)}> minus 10</button>
-              <button onClick={()=>minus(50)}> minus 10</button>
+              <button onClick={()=>minus(50)}> minus 50</button>
           </div>
       </div>
   ) ;

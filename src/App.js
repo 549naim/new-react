@@ -38,7 +38,6 @@ function App() {
               "hsc_ins : Govt. BL Collage, khulna",
               "hsc-year :2019",
           ]}
-
       />}
       />
        

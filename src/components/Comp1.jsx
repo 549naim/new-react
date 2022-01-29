@@ -21,11 +21,7 @@ function Comp1(props) {
             <ul className="edu-qualifications">
                 <ul>SSC 
                    <Subcontact
-                      personal_info={[
-                      "ssc_result : GPA-5",
-                      "ssc_ins : Daud public school,jashore",
-                       "ssc year: 2017",
-                      ]}
+                      
                    />
                 </ul>
                 <ul>HSC

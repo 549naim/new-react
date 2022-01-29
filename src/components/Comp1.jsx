@@ -24,14 +24,14 @@ function Comp1(props) {
                 </ul>
                 <ul>HSC
 
-                    <Subcontact
+                    {/* <Subcontact
                         personal_info={[
                             "hsc_result : GPA-4.25",
                             "hsc_ins : Govt. BL Collage, khulna",
                             "hsc-year :2019",
                         ]}
 
-                    />
+                    /> */}
                     <ul />
                     <ul>Undergraduate
                         <li>

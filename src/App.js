@@ -32,17 +32,17 @@ function App() {
         university="BSC in Software Engineering ,
         Daffodil international university"
         // game={["footabl","cricket","batminton","hokky"]}
+        subContact={<Subcontact
+          personal_info={[
+              "hsc_result : GPA-4.25",
+              "hsc_ins : Govt. BL Collage, khulna",
+              "hsc-year :2019",
+          ]}
 
-      >
-      subContact={<Subcontact
-                        personal_info={[
-                            "hsc_result : GPA-4.25",
-                            "hsc_ins : Govt. BL Collage, khulna",
-                            "hsc-year :2019",
-                        ]}
-
-                    />}
-      </Comp1>
+      />}
+      />
+       
+      
         
       
       <Button />

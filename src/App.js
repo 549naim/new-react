@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 
 import './App.css';
-import Comp1 from './components/Comp1'
-import Button from './components/Button'
-import Subcontact from './Subcontact';
+import Comp1 from './components/Comp1';
+import Button from './components/Button';
+import Subcontact from './components/Subcontact';
+
 
 
  
@@ -33,14 +34,17 @@ function App() {
         // game={["footabl","cricket","batminton","hokky"]}
 
       >
-        <Subcontact
-                    personal_info={[
-                        "hsc_result : GPA-4.25",
-                        "hsc_ins : Govt. BL Collage, khulna",
-                        "hsc-year :2019",
-                    ]}
-                    />
+      subContact={<Subcontact
+                        personal_info={[
+                            "hsc_result : GPA-4.25",
+                            "hsc_ins : Govt. BL Collage, khulna",
+                            "hsc-year :2019",
+                        ]}
+
+                    />}
       </Comp1>
+        
+      
       <Button />
       
 

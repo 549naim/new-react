@@ -5,8 +5,7 @@ import Comp1 from './components/Comp1'
 import Button from './components/Button'
 
 
-
-
+ 
 
 function App() {
 
@@ -20,10 +19,11 @@ function App() {
         Age="20"
         university="BSC in Software Engineering ,
         Daffodil international university"
+        // game={["footabl","cricket","batminton","hokky"]}
 
       />
       <Button />
-
+      
 
 
     </div>

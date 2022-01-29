@@ -1,6 +1,6 @@
 import React from 'react';
 import Subcontact from './Subcontact';
-
+import Prccom from './Prccom';
 
 
 function Comp1(props) {
@@ -58,9 +58,15 @@ function Comp1(props) {
                     
             <h5>Favourite games</h5>
             <div>
-               <Subcontact 
-               personal_info={["footabl","cricket","batminton","hokky"]}
-               />
+
+            <Prccom
+            
+            />
+               {/* <Subcontact 
+                 personal_info={props.games}
+               /> */}
+              
+               
             </div>
             <h5>Skills</h5>
             <div>

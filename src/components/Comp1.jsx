@@ -1,8 +1,4 @@
 import React from 'react';
-import Subcontact from './Subcontact';
-import Prccom from './Prccom';
-
-
 function Comp1(props) {
 
 
@@ -20,50 +16,39 @@ function Comp1(props) {
             <h5>Educational qualifications :</h5>
             <ul className="edu-qualifications">
                 <ul>SSC
-                    {props.subContact}
+                    {props.sscResult}
+                    
                 </ul>
                 <ul>HSC
+                {props.subContact}
 
-                    {/* <Subcontact
-                        personal_info={[
-                            "hsc_result : GPA-4.25",
-                            "hsc_ins : Govt. BL Collage, khulna",
-                            "hsc-year :2019",
-                        ]}
-
-                    /> */}
                     <ul />
                     <ul>Undergraduate
                         <li>
                             {props.university}
                         </li>
                     </ul>
-
-
-
                 </ul>
 
                 <h5>Contacts</h5>
-
-
+                   <ul>
+                       {props.contact}
+                   </ul>
                 <h5>Favourite games</h5>
                 <div>
 
-                    <Prccom
-
-                    />
-                    {/* <Subcontact 
-                 personal_info={props.games}
-               /> */}
-
-
+                   <ul>
+                       {props.games}
+                   </ul>
                 </div>
                 <h5>Skills</h5>
                 <div>
-                    <Subcontact
-                        personal_info={["c progarming", "java", "javascrips", "python"]}
-                    />
+                    <ul>
+                        {props.skills}
+                    </ul>
+                    
                 </div>
+                <hr />
                 <hr />
                 <br />
 
